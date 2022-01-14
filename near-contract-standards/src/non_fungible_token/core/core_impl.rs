@@ -132,6 +132,8 @@ impl NonFungibleToken {
                     description: Some("a".repeat(64)),
                     media: Some("a".repeat(64)),
                     copies: Some(1),
+					issued_at: Some(1),
+					extra : Some("a".repeat(64)),
                 },
             );
         }
