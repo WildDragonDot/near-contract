@@ -133,7 +133,11 @@ impl NonFungibleToken {
                     media: Some("a".repeat(64)),
                     copies: Some(1),
 					issued_at: Some(1),
+					expires_at: Some("a".repeat(64)),
+					starts_at: Some("a".repeat(64)),
+					updated_at: Some("a".repeat(64)),
 					extra : Some("a".repeat(64)),
+					reference: Some("a".repeat(64))
                 },
             );
         }
